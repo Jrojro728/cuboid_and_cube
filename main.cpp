@@ -17,7 +17,7 @@ int main()
 	std::cin >> b;
 	std::cin >>	h;
 	cubo->Rectangle3in1(a, b, h);
-	std::cout << cubo->getCuboidSize();
+	std::cout << cubo->getCuboidSize() << "\n";
 
 	system("pause");
 
