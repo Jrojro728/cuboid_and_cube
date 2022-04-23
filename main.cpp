@@ -10,9 +10,9 @@ cuboid *cubo = new cuboid();
 
 int main()
 {
-	double a{};
-	double b{};
-	double h{};
+	long double a{};
+	long double b{};
+	long double h{};
 	std::cout << "请输入一个数字:";
 	std::cin >> a;
 	std::cout << "请输入另一个数字:";
