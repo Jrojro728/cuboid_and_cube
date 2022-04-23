@@ -13,8 +13,11 @@ int main()
 	double a{};
 	double b{};
 	double h{};
+	std::cout << "请输入一个数字:";
 	std::cin >> a;
+	std::cout << "请输入另一个数字:";
 	std::cin >> b;
+	std::cout << "请再输入另一个数字:";
 	std::cin >>	h;
 	cubo->Rectangle3in1(a, b, h);
 	std::cout << cubo->getCuboidSize() << "\n";
