@@ -30,9 +30,15 @@ public:
 	{
 		return a * b;
 	}
+
 	Rectangle_a getCuboidSize()
 	{
 		return a * b * h;
+	}
+
+	Rectangle_a getCuboidSurfaceArea()
+	{
+		return a * b * 2 + a * h * 2 + b * h * 2;
 	}
 private:
 	Rectangle_a a;
