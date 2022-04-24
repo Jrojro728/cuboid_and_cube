@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include <iostream>
 #include <cstdio>
 #include <cstdlib>
@@ -22,13 +22,17 @@ int main()
 	std::cin >>	h;
 	cubo->Rectangle3in1(a, b, h);
 	std::cout << "请输入你的选择:\n"
-			  << "(1):求面积 (2):求体积\n";
+			  << "(1):求面积 (2):求表面积 (3):求面积\n";
 	std::cin >> choice;
 	if (choice == 1)
 	{
 		std::cout << "面积:" << cubo->getCuboidArea();
 	}
-	else 
+	else if (choice == 2)
+	{
+		std::cout << "表面积:" << cubo->getCuboidSurfaceArea();
+	}
+	else
 	{
 		std::cout << "体积:" << cubo->getCuboidSize();
 	}
