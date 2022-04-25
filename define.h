@@ -1,3 +1,3 @@
 #pragma once
 
-typedef long double Rectangle_a;
+typedef long double general_a;
