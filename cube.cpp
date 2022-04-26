@@ -9,15 +9,15 @@ class cube
     {
         a = general;
     }
-    general_a getCudeArea()
+    general_a getCubeArea()
     {
         return pow(a, 2);
     }
-    general_a getCudeSufaceArea()
+    general_a getCubeSurfaceArea()
     {
         return a * 6;
     }
-    general_a getCudeSize()
+    general_a getCubeSize()
     {
         return pow(a, 3);
     }
