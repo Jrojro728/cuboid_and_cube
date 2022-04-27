@@ -15,7 +15,17 @@ int temp;
 
 int main()
 {
-    choice("cuboid");
+	std::cout << "请输入你的选择\n"
+		<< "(1):长方体 (2):正方体\n";
+	std::cin >> temp;
+	if (temp == 1)
+	{
+		choice("cuboid");
+	}
+	if (temp == 2)
+	{
+		choice("cube");
+	}
 
 	system("pause");
 
