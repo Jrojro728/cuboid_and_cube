@@ -1,4 +1,4 @@
-#include <cmath>
+﻿#include <cmath>
 #include "define.h"
 #pragma once
 
