@@ -91,11 +91,14 @@ void choice(std::string type)
 		}
 	}
 
-    std::cout << "是否要退出程序?";
-    std::cout << "(1):退出 (2):继续";
+    std::cout << "是否要退出程序?\n";
+    std::cout << "(1):退出 (2):继续\n";
 	std::cin >> temp;
 	if (temp == 2)
 	{
+		std::cout << "请输入你的选择\n"
+			<< "(1):长方体 (2):正方体\n";
+		std::cin >> temp;
 		if (temp == 1)
 		{
 			choiceAgain("cuboid");
