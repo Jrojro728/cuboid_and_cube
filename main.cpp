@@ -5,8 +5,7 @@
 #include <string>
 
 #include "define.h"
-#include "cuboid.cpp"
-#include "cube.cpp"
+#include "class.cpp"
 
 void choice(std::string type);
 void choiceAgain(std::string againType);

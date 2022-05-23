@@ -136,10 +136,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="cuboid.cpp" />
+    <ClCompile Include="class.cpp" />
     <ClCompile Include="define.h" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="cube.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />

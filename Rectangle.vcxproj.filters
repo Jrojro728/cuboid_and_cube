@@ -21,10 +21,7 @@
     <ClCompile Include="define.h">
       <Filter>头文件</Filter>
     </ClCompile>
-    <ClCompile Include="cuboid.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="cube.cpp">
+    <ClCompile Include="class.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
